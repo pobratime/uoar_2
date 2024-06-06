@@ -13,7 +13,7 @@ sum:
 
 compare:
   cmp edi, esi
-  je leave
+  jb leave
   jmp inc_add
 
 inc_add:

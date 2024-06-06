@@ -1,13 +1,13 @@
 #include <stdio.h>
 
-extern unsigned sum(int);
+extern unsigned sum(unsigned);
 
 int main(){
 
   int x;
-  scanf("%d", &x);
+  scanf("%u", &x);
 
-  printf("%d\n", sum(x));
+  printf("%u\n", sum(x));
 
   return 0;
 }
